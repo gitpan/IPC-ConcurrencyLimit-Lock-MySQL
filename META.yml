@@ -25,4 +25,4 @@ requires:
   Data::Dumper: 0
   IPC::ConcurrencyLimit: 0.01
   IPC::ConcurrencyLimit::Lock: 0
-version: 0.01
+version: 0.02

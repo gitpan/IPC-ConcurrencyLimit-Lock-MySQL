@@ -3,7 +3,7 @@ use 5.008001;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use Carp qw(croak);
 use Class::XSAccessor {
@@ -160,6 +160,13 @@ The time-out in seconds when trying to obtain a lock. Defaults to
 =head1 AUTHOR
 
 Steffen Mueller, C<smueller@cpan.org>
+
+=head1 ACKNOWLEDGMENT
+
+This module was originally developed for booking.com.
+With approval from booking.com, this module was generalized
+and put on CPAN, for which the author would like to express
+his gratitude.
 
 =head1 COPYRIGHT AND LICENSE
 
